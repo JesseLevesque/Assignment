@@ -1,0 +1,155 @@
+body {
+    background-image: url(img/background.jpg);
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+    overflow-x: hidden;
+    background-size: cover;
+    margin: 0;
+}
+
+#app {
+    width: 100%;
+    height: 100%;
+    overflow-x: hidden;
+}
+
+nav {
+    background-color: rgba(255, 255, 255, 0.747);
+    width: 100vw;
+    overflow-x: hidden;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+}
+
+nav>div>p {
+    text-align: center;
+}
+
+nav>div>p:hover {
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+}
+
+#logoCont {
+    display: grid;
+    width: 100vw;
+    height: 100vh;
+    overflow-x: hidden;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+}
+
+#logo {
+    width: 100%;
+    height: 100%;
+    grid-column: 2/3;
+    grid-row: 2/3;
+    opacity: 0.95;
+}
+
+#homeCont {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+}
+
+#homeCont>img {
+    width: 100%;
+    height: 100%;
+    overflow-x: hidden;
+}
+
+.hair {
+    position: relative;
+    width: 300px;
+    height: 300px;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 4fr;
+}
+
+.hair>img {
+    position: relative;
+    width: 100%;
+    grid-row: 2/3;
+}
+
+#hairContainer>.hair>h1 {
+    position: relative;
+    width: 100%;
+    height: 5vh;
+    background-color: rgba(128, 128, 128, 0.95);
+    color: white;
+    grid-row: 1/2;
+    margin: 0;
+    font-size: large;
+    text-align: center;
+}
+
+#hairContainer {
+    position: relative;
+    width: 100vw;
+    height: 100%;
+    overflow-x: hidden;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.products>img {
+    position: relative;
+    width: 100%;
+    height: 25%;
+    grid-row: 2/3;
+    overflow: hidden;
+}
+
+#productsContainer>.products>h1 {
+    position: relative;
+    width: 100%;
+    height: 5vh;
+    background-color: rgba(128, 128, 128, 0.95);
+    color: white;
+    grid-row: 1/2;
+    margin: 0;
+    font-size: large;
+    text-align: center;
+    overflow: hidden;
+}
+
+#productsContainer {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    left: 25vw;
+    top: 25vh;
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+#content {
+    height: 100%;
+    overflow: hidden;
+}
+
+#dropDownContainer {
+    width: 100%;
+    height: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+}
+
+#dayContainer {
+    grid-column: 2/3;
+    grid-row: 2/3;
+}
+
+#dayContainer>label {
+    color: white;
+}

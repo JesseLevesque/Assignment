@@ -1,0 +1,59 @@
+{
+    "Hairstyles": [{
+            "Name": "Slicked Back Undercut",
+            "image": "../src/img/SBU.jpg"
+        },
+        {
+            "Name": "Long Comb Over Hairstyle + Low Fade",
+            "image": "../src/img/Long-Comb-Over-Low-Fade.jpg"
+        },
+        {
+            "Name": "Short Quiff Haircut",
+            "image": "../src/img/Short-Quiff-Skin-Fade.jpg"
+        },
+        {
+            "Name": "Medium Side Swept",
+            "image": "../src/img/Medium-Side-Swept.jpg"
+        },
+        {
+            "Name": "Short Textured",
+            "image": "../src/img/Short-Textured.jpg"
+        },
+        {
+            "Name": "Long Hairstyle",
+            "image": "../src/img/Long.jpg"
+        },
+        {
+            "Name": "Short Haircut Combed Over + Undercut",
+            "image": "../src/img/Short-Haircut-Combed-Over-Undercut.jpg"
+        },
+        {
+            "Name": "Curly Hair Taper Fade",
+            "image": "../src/img/Curly-Hair-Taper-Fade.jpg"
+        },
+        {
+            "Name": "Messy Taper",
+            "image": "../src/img/Messy-Taper-Hairstyle.jpg"
+        },
+        {
+            "Name": "Textured Pompadour Fade",
+            "image": "../src/img/Textured-Pompadour-Fade.jpg"
+        },
+        {
+            "Name": "Short Sides, Long Top",
+            "image": "../src/img/Short-Sides-Long-Top.jpg"
+        },
+        {
+            "Name": "Slicked Back Wavy",
+            "image": "../src/img/Slicked-Back-Wavy.jpg"
+        },
+        {
+            "Name": "Textured Crop Top Fade",
+            "image": "../src/img/Textured-Crop-Top-Fade.jpg"
+        },
+        {
+            "Name": "Long Hair Brushed Back",
+            "image": "../src/img/Short-Sides-Long-Hair-on-Top.jpg"
+        }
+    ]
+}

@@ -1,0 +1,21 @@
+{
+    "Products": [{
+            "Name": "Shampoo",
+            "image": "../src/img/shampoo.jpg"
+
+        },
+        {
+            "Name": "Hair Gel",
+            "image": "../src/img/hair-gel.jpg"
+        },
+        {
+            "Name": "Hairspray",
+            "image": "../src/img/dove-spray.jpg"
+        },
+        {
+            "Name": "Beard Oil",
+            "image": "../src/img/beard-oil.jpg"
+        }
+
+    ]
+}
